@@ -2,7 +2,7 @@ package operators;
 
 public class arithmatic {
     public static void main(String[]args){
-        //Arithmatics operators = +, -, *, /, %, +=, -=, /=, %=, --
+        //Arithmatics operators = +, -, *, /, %, +=, -=, *=, /=, %=, --
         int a = 5;
         int b = 10;
 
@@ -14,7 +14,8 @@ public class arithmatic {
 
         System.out.println(a + "," + b + "," + c + "," + d + "," + e + "," + f + "," + g + ","  );
         int h = a + 2; //Since this is okay in CSE
-        h += 2; //h = h+2;
+        h += 2; //h = h+2; //9
+        h -= 2;
         System.out.println(h);
     }
 }
