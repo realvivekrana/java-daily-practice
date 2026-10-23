@@ -22,5 +22,6 @@ public class switchStatements {
     //switch statements limited uses
     //No dublicates cases
     //after JDK 7 Strings can also be used as switch expression
+    //after JDK-14 switch is enhanced too much
   }
 }
