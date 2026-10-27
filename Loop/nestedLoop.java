@@ -86,6 +86,8 @@ public class nestedLoop {
         * * * * *
         */
 
+
+
         //Labels
         outer: for(int i = 1; i <= 10; i++){
         inner:    for(int j = 1; j <= i; j++){
@@ -97,6 +99,8 @@ public class nestedLoop {
             }
             System.out.println();
         }
+
+        
         /*
         * 
         * * 
