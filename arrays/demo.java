@@ -3,6 +3,7 @@ package arrays;
 public class demo {
     public static void main(String[] args) {
         int rollNums[] = new int[3];
+        // int [] rollNums = new int[3];
         //101, 102, 103
 
         // rollNums[0] = 101;
