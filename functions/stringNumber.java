@@ -8,7 +8,7 @@ public class stringNumber {
         return s.length();
     }
     public static void main(String[]args){
-        System.out.println(greet("Vivek"));
-        System.out.println(length("Rana"));
+        System.out.println(greet("Vivek"));  //Hello Vivek
+        System.out.println(length("Rana"));     //4
     }
 }
