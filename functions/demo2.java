@@ -13,6 +13,11 @@ public class demo2 {
         int z = sum2(5,6,7);
         System.out.println(z);
 
+        greet("Aditya", 24);
+        greet(24, "Aditya");
+
+        fun();
+
     }
 
     static int sum(int a, int b){
@@ -29,5 +34,18 @@ public class demo2 {
 
     static void greet(String name, int age){
         System.out.println("Hi " + name + ". your age is " + age);
+    }
+
+    static void greet(int age, String name){  //ordering of parameter
+        System.out.println("Hi " + name + ". your age is " + age);
+    }
+
+    static void fun(){
+        System.out.println("Hello");
+    }
+
+    static int fun2(){
+        System.out.println("Hello");
+        return 5;
     }
 }
